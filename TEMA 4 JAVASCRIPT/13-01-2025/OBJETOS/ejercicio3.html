@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .verde { color: lime; }
+        .amarillo { color: gold; }
+        .rojo { color: red; }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <script>
+        let numero = {
+            valor: prompt("Introduce un número"),
+            color: ""
+        }
+
+        if (numero.valor < 100) numero.color = "verde";
+        else if (numero.valor <= 200) numero.color = "amarillo";
+        else numero.color = "rojo";
+
+        document.getElementById("container").textContent = numero.valor;
+        document.getElementById("container").className = numero.color;
+    </script>
+</body>
+</html>
