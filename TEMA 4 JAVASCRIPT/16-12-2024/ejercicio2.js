@@ -21,4 +21,4 @@ let ciudadActual = "Buenos Aires"
 
 //EJERCICIO 2
 
-let 1juan = "Juan Frauca" // Error: No se puede usar un número como nombre de variable.
+let juan = "Juan Frauca" // Error: No se puede usar un número como nombre de variable.
