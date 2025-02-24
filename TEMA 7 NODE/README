@@ -1,0 +1,7 @@
+# 1. Crear Proyecto Node
+npm init
+# 2. Instalar Typescript
+npm i -D typescript ts-node @types/node
+# 3. Crear archivo configuracion de Typescript
+
+npx tsc --init
